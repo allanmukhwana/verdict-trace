@@ -1,0 +1,33 @@
+# =============================================================================
+# VerdictTrace .gitignore
+# =============================================================================
+
+# Environment file (contains secrets)
+.env
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# PHP dependencies (if any added later)
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/

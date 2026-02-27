@@ -31,3 +31,5 @@ logs/
 # Temporary files
 tmp/
 temp/
+
+config.php
